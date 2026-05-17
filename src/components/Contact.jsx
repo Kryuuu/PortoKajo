@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, Send } from "lucide-react";
-import { FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 export default function Contact() {
   return (
@@ -25,7 +25,7 @@ export default function Contact() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 relative z-10 w-full">
             <a
-              href="mailto:contact@example.com" 
+              href="mailto:mustafaajis623@gmail.com" 
               className="px-8 py-4 w-full sm:w-auto bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2"
             >
               Hubungi Saya <Send size={18} />
@@ -40,9 +40,9 @@ export default function Contact() {
           </div>
 
           <div className="mt-16 pt-8 border-t border-gray-100 flex items-center justify-center gap-6 relative z-10">
-            <SocialLink href="#" icon={<FaInstagram size={22} />} />
-            <SocialLink href="#" icon={<FaLinkedin size={22} />} />
-            <SocialLink href="#" icon={<Mail size={22} />} />
+            <SocialLink href="https://www.instagram.com/ikajunz._/" icon={<FaInstagram size={22} />} />
+            <SocialLink href="https://wa.me/6281327304522" icon={<FaWhatsapp size={22} />} />
+            <SocialLink href="mailto:mustafaajis623@gmail.com" icon={<Mail size={22} />} />
           </div>
         </motion.div>
       </div>
